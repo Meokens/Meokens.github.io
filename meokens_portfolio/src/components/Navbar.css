@@ -1,0 +1,140 @@
+/* Navbar styling */
+.navbar {
+  background-color: #A9A9A9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Navbar container layout */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo styling */
+.navbar-logo .logo-image {
+  height: 50px;
+}
+
+/* Navigation links styling */
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f2f4f6;
+}
+
+/* Social media icons */
+.navbar-socials {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  color: #333;
+  font-size: 20px;
+  margin-left: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #fcfdfe;
+}
+
+/* Hamburger Menu (for Mobile View) */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #A9A9A9;
+    padding: 15px;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-item {
+    margin-left: 0;
+  }
+
+  .navbar-socials {
+    display: none;
+  }
+}
+
+/* Ensure Proper Alignment for Small Screens */
+@media (max-width: 480px) {
+  .navbar-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .navbar-socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+/* Hide social icons in mobile view */
+@media (max-width: 768px) {
+  .navbar-socials {
+    display: none;
+  }
+}
