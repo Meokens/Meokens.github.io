@@ -8,7 +8,7 @@ const footerStyle = {
   justifyContent: 'center',
   alignItems: 'center',
   padding: '20px',
-  backgroundColor: '#A9A9A9',
+  backgroundColor: '#B39316',
   color: '#222',
   fontSize: '14px',
   fontFamily: "'Roboto', sans-serif",
@@ -33,14 +33,12 @@ function Footer() {
     <footer style={footerStyle}>
       {/* Social media icons centered */}
       <div style={socialLinksStyle}>
-        <a href="https://www.linkedin.com/in/alexander-choji-4a41a4188/" style={socialIconStyle}><FaLinkedin /></a>
-        <a href="https://www.freelancer.com/u/chojialexander" style={socialIconStyle}><FaUserTie /></a>
-        <a href="https://instagram.com/devchoji" style={socialIconStyle}><FaInstagram /></a>
-        <a href="https://www.youtube.com/@devchoji" style={socialIconStyle}><FaYoutube /></a>
+        <a href="https://www.linkedin.com/in/mosesokens" style={socialIconStyle}><FaLinkedin /></a>
+        <a href="https://www.instagram.com/okensmoses?igsh=b29hcjJhd3V3a2V5" style={socialIconStyle}><FaInstagram /></a>
       </div>
       
       {/* Copyright message centered */}
-      <p>&copy; 2025 CHOJI ALEXANDER PAM. All rights reserved.</p>
+      <p>Ebere Moses Okens -- <a href="https://choji-alexander.github.io/myPortfolio.github.io/#/">&copy; 2025 CHOJI ALEXANDER PAM. </a>All rights reserved.</p>
     </footer>
   );
 }

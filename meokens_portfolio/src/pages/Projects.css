@@ -1,0 +1,122 @@
+.projects-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 70px; /* Ensure the content is below the fixed navbar */
+  text-align: center; /* Center the text and headings */
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center; /* Center the heading */
+  color: #333;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 projects per row on larger screens */
+  gap: 20px;
+  justify-items: center; /* Center the items in the grid */
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  width: 100%; /* Ensure it spans the full width of the grid item */
+  max-width: 600px; /* Control the max size of the project cards */
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.project-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.project-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #B39316;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.project-link:hover {
+  background-color: #B39316;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .projects-list {
+    grid-template-columns: 1fr; /* 1 project per row on tablets and small screens */
+  }
+
+  h2 {
+    font-size: 1.8rem; /* Slightly smaller font size for headings */
+  }
+
+  .project-card {
+    padding: 15px; /* Reduce padding for smaller screens */
+    max-width: 90%; /* Adjust the card width */
+  }
+
+  .project-card h3 {
+    font-size: 1.3rem; /* Smaller font size for project titles */
+  }
+
+  .project-card p {
+    font-size: 0.9rem; /* Adjust text size */
+  }
+
+  .project-link {
+    font-size: 0.9rem; /* Smaller button text */
+    padding: 8px 12px; /* Reduce button padding */
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.5rem; /* Further reduce heading size on very small screens */
+  }
+
+  .project-card {
+    padding: 10px; /* Compact padding for extra small screens */
+  }
+
+  .project-card h3 {
+    font-size: 1.2rem; /* Smaller title font */
+  }
+
+  .project-card p {
+    font-size: 0.85rem; /* Reduce text size further */
+  }
+
+  .project-link {
+    font-size: 0.8rem; /* Compact button text */
+    padding: 6px 10px; /* Smaller button padding */
+  }
+}

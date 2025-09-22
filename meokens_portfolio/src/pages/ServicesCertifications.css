@@ -1,0 +1,199 @@
+/* General Page Styling */
+.services-certifications {
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    color: #B39316;
+    background-color: #f9f9f9;
+    margin-top: 60px;  /* Ensure the content is below the fixed navbar */
+  }
+  
+  .header-section {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .header-section h1 {
+    color: #B39316;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .header-section p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Services Section */
+  .services-section h2,
+  .certifications-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #B39316;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #B39316;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Certifications Section */
+  .certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .certification-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .certification-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #B39316;
+  }
+  
+  .certification-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Call-to-Action Section */
+  .cta-section {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .cta-button {
+    background-color: #B39316;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: black;
+  }
+  
+  .services-intro {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 1rem 0 2rem; /* Adds spacing above and below */
+    text-align: center;
+    line-height: 1.6; /* Improves readability */
+  }
+  
+  .certifications-section {
+    width: 90%;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    max-width: 1200px; /* Optional: Limit the maximum width */
+    margin: 30px auto; /* Centers horizontally */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better aesthetics */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+  }
+  
+  .certification-slide {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+  }
+  
+  .certification-image {
+    height: auto;
+    margin-bottom: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .certification-info {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .certification-info h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .certification-info p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .slick-dots li button:before {
+    color: #333;
+  }
+  
+  .slick-prev, .slick-next {
+    color: #333;
+    z-index: 2;
+  }
+
+  .custom-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+  
+  .custom-next {
+    right: -50px;
+  }
+  
+  .custom-prev {
+    left: -50px;
+  }
+  
+  .custom-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  

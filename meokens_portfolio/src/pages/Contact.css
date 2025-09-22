@@ -1,0 +1,132 @@
+/* Scoped styles for the Contact Me page */
+.contact-me {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 2rem;
+    margin-top: 60px;  /* Ensure the content is below the fixed navbar */
+  }
+  
+  .contact-me .header-section {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-me .header-section h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .contact-me .header-section p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .contact-me .contact-info {
+    margin-bottom: 3rem;
+  }
+  
+  .contact-me .contact-info h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .contact-me .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .contact-me .info-item {
+    background: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .contact-me .info-item h3 {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .contact-me .info-item p {
+    margin-top: 0.5rem;
+    color: #555;
+  }
+  
+  .contact-me .info-item a {
+    color: #B39316;
+    text-decoration: none;
+  }
+  
+  .contact-me .inquiry-form {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .contact-me .inquiry-form h2 {
+    font-size: 2rem;
+    color: #B39316;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-me .form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-me .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-me .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .contact-me .form-group input, 
+  .contact-me .form-group select, 
+  .contact-me .form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .contact-me .submit-button {
+    display: block;
+    width: 100%;
+    background: #B39316;
+    color: #fff;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .contact-me .submit-button:hover {
+    background: #222;
+  }
+  
+  .google-form-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 1200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  

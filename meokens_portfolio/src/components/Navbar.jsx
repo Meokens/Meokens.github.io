@@ -16,7 +16,7 @@ function Navbar() {
       <div className="navbar-container">
         {/* Logo Section */}
         <div className="navbar-logo">
-          <Link to="/">
+          <Link to="https://choji-alexander.github.io/myPortfolio.github.io/#/">
             <img src={logo} alt="My Logo" className="logo-image" />
           </Link>
         </div>
@@ -41,10 +41,8 @@ function Navbar() {
         {/* Social Media Icons */}
         <div className="navbar-socials">
           {/*<a href="https://facebook.com" className="social-icon"  target="_blank" rel="noopener noreferrer"><FaFacebook /></a> */}
-          <a href="https://www.linkedin.com/in/alexander-choji-4a41a4188/" className="social-icon" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>          
-          <a href="https://www.freelancer.com/u/chojialexander" className="social-icon" target="_blank" rel="noopener noreferrer"><FaUserTie /></a>
-          <a href="https://instagram.com/devchoji" className="social-icon" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-          <a href="https://www.youtube.com/@devchoji" className="social-icon" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
+          <a href="https://www.linkedin.com/in/mosesokens" className="social-icon" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>          
+          <a href="https://www.instagram.com/okensmoses?igsh=b29hcjJhd3V3a2V5" className="social-icon" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         </div>
       </div>
     </header>
