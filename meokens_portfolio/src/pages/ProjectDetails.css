@@ -1,0 +1,118 @@
+/* Scoped to .project-details-container */
+.project-details-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 75px;  /* Ensure the content is below the fixed navbar */
+  }
+  
+  .project-details-container .project-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #B39316;
+  }
+  
+  .project-details-container .short-description {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .project-details-container .tech-stack {
+    margin-bottom: 30px;
+    text-align: center;
+
+  }
+  
+  .project-details-container .tech-stack h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #B39316;
+  }
+  
+  .project-details-container .project-gallery {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .project-details-container .project-gallery h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #B39316;
+  }
+  
+  .project-details-container .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  
+  .project-details-container .gallery-image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-details-container .project-videos {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .project-details-container .project-videos h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #B39316;
+  }
+  
+  .project-details-container .videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+  }
+  
+  .project-details-container .video-embed {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .project-details-container .project-links {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .project-details-container .project-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #B39316;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .project-details-container .project-link:hover {
+    background-color: #B39316;
+  }
+  
+  .project-details-container .additional-info {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .project-details-container .additional-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #B39316;
+  }
+  
+  .project-details-container .additional-info p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  

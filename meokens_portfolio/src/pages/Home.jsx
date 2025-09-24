@@ -74,22 +74,16 @@ const Home = () => {
         <h2 className="home-services-heading">Featured Projects</h2>
         <div className="home-projects-list">
           <div className="home-project-card">
-            <img src='{#}' alt="EazyLinks" className="home-project-image" />
-            <h3>EazyLinks</h3>
-            <p>A mobile-first marketplace app connecting users with trusted local service providers.</p>
-            <Link to="/projects/16" className="home-project-link">View Details</Link>
+            <img src={require("../assets/AMB.png")} alt="AMB" className="home-project-image" />
+            <h3>AMB</h3>
+            <p>Came up with a redesign and strategy for the Abbey Mortgage Bank website.</p>
+            <Link to="/projects/1" className="home-project-link">View Details</Link>
           </div>
           <div className="home-project-card">
-            <img src='{#}' alt="StudyBud" className="home-project-image" />
-            <h3>StudyBud</h3>
-            <p>An interactive web app for collaborative learning and topic discussions.</p>
-            <Link to="/projects/6" className="home-project-link">View Details</Link>
-          </div>
-          <div className="home-project-card">
-            <img src='{#}' alt="Website Showcase" className="home-project-image" />
-            <h3>Website Showcase</h3>
-            <p>A simple platform for displaying and exploring company websites.</p>
-            <Link to="/projects/12" className="home-project-link">View Details</Link>
+            <img src={require("../assets/Artconn.png")} alt="Artconn" className="home-project-image" />
+            <h3>Artconn</h3>
+            <p>Came up with a design and strategy for the Artisan Connect mobile app.</p>
+            <Link to="/projects/2" className="home-project-link">View Details</Link>
           </div>
         </div>
       </section>

@@ -9,8 +9,7 @@ import Experience from "./pages/Experience";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
-{/*
-import ProjectDetails from "./pages/ProjectDetails";*/}
+import ProjectDetails from "./pages/ProjectDetails";
 
 function App() {
   return (
@@ -23,9 +22,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
-        {/*
         <Route path="/projects/:id" element={<ProjectDetails />} />
-         */}
       </Routes>
       <Footer />
     </Router>

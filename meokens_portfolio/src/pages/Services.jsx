@@ -4,8 +4,8 @@ import "./ServicesCertifications.css";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom';
-// import alxVentures from "../assets/gig-at-a-startup.png";
-// import jP from "../assets/jpMorgan.png";
+import certi1 from "../assets/certi1.jpeg";
+import certi2 from "../assets/certi2.jpeg";
 
 const ServicesCertifications = () => {
   const services = [
@@ -19,10 +19,8 @@ const ServicesCertifications = () => {
   const certifications = [
    // { name: "Gig-at-a-startup certificate", issuer: "ALX Ventures", date: "December, 2024", image: alxVentures },
    // { name: "J.P. Morgan Software Engineering Virtual Experience on Forage", issuer: "JP Morgan", date: "June 2024", image: jP },
-    { name: "Bincom Python Beginner and Intermediate Certificate", issuer: "Bincom Academy", date: "November, 2023", image: "#" },
-    { name: "Business Development Module Certificate", issuer: "1% Club", date: "May, 2023", image: "#" },
-    { name: "National Service Certificate.", issuer: "NYSC", date: "November, 2022", image: "#" },
-    { name: "B.ENG.", issuer: "Afe Babalola University", date: "November, 2022", image: "#" },
+    { name: "Professional Diploma in UX Design", issuer: "UX Design Institute", date: "#", image: certi1 },
+    { name: "Certificate in UX Design Fundamentals", issuer: "UX Design Institute", date: "#", image: certi2 },
   ];
 
   const CustomNextArrow = ({ onClick }) => (
